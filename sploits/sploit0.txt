@@ -1,0 +1,1 @@
+The target buffer was 136 bytes away from the return address.  Since the return address needed to be overwritten with the address where the target buffer was located in memory, the buffer would need to be 136 bytes long, starting with the shellcode and ending with the address of the target buffer.

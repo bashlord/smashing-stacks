@@ -1,0 +1,1 @@
+Buffer overflow into a return address of the strcpy thats is called.  Since the target buffer is created in foo and is strcpy in bar, the return address of bar would need to be overwritten with the return address where buf is in memory and is filled with the shellcode from the overflow.
